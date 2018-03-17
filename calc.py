@@ -22,11 +22,14 @@ while while_key:
 		print("맞았습니다!")
 	else:
 		print("틀렸네요.")
-	if_q = input('더 하시겠습니까?(y/n)')
-	if if_q == 'n':
-		while_key = False
-	elif if_q != 'n''y':
-		print('알 수 없는 대답이네요.')
+	if_while_key = True
+	while if_while_key:	
+		if_q = input('더 하시겠습니까?(y/n)')
+		if if_q == 'n':
+			while_key = False
+			if_while_key = False
+		elif if_q != 'n''y':
+			print('알 수 없는 대답이네요.')
 			
 	
 			
