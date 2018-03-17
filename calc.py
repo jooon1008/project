@@ -19,9 +19,9 @@ while while_key:
 	print ('이 문제의 답을 입력해 주세요.\n' + quetion + ' = ?')
 	u_a = input()
 	if int(u_a) == r_a:
-		print("맞았습니다!")
+		print("맞았습니다!*^.^*♬")
 	else:
-		print("틀렸네요.")
+		print("틀렸네요.-_-;;")
 	if_while_key = True
 	while if_while_key:	
 		if_q = input('더 하시겠습니까?(y/n)')
